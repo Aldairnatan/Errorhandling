@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+    </head>
+    <body>
+        <?php
+        require ('./_app/Config.inc.php');
+
+        trigger_error("Essa é uma NOTICE", E_USER_NOTICE);
+        trigger_error("Essa é uma Alert", E_USER_WARNING);
+        //trigger_error("Essa é uma Error", E_USER_ERROR);
+        TIErro("Esse é um Accept", TI_ACCEPT);
+
+        ?>
+    </body>
+</html>
