@@ -28,11 +28,6 @@ function __autoload($Class) {
         Die;
     endif;
 
-    if (file_exists("{$dirName}/{$Class}.class.php")):
-        require_once ("{$dirName}/{$Class}.class.php");
-    else:
-        die("Erro ao includir {$dirName}/{$Class}.class.php<hr>");
-    endif;
 }
 
 // TRATAMENTO DE ERROS ----------------------------->
