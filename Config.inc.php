@@ -8,7 +8,7 @@
  * define('db_pass','YOUR DATABASE PASS HERE ');
  */
 define('db_host', 'localhost');
-define('db_name', 'wsphp');
+define('db_name', '');
 define('db_user', 'root');
 define('db_pass', '');
 
